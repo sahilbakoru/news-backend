@@ -107,7 +107,7 @@ app.get("/getEntertainmentArts", async (req, res) => {
 
 app.get("/getBusinessArts", async (req, res) => {
     try {
-        const response = await fetch("http://rss.cnn.com/rss/edition_business.rss")
+        const response = await fetch("http://www.huffingtonpost.com/feeds/verticals/business/news.xml")
         res.json(await response.text())
 } catch (error) {
 	console.log(error)

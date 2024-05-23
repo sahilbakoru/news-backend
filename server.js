@@ -190,7 +190,5 @@ app.get("/getWSJArts", (req, res) => {
     );
 });
 
-//https://newsapi.org/v2/top-headlines?sources=${source}&pageSize=${pageSize}&apiKey=${process.env.REACT_APP_API_KEY}
-//91dafe5fb4024272b417e0315d0a998c
 
 app.listen(port, () => console.log(`Appnews app listening on port ${port}!`));
